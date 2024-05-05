@@ -1,5 +1,8 @@
-package com.jotaveerrefe.product.manager.domain.product;
+package com.jotaveerrefe.product.manager.service;
 
+import com.jotaveerrefe.product.manager.domain.product.Product;
+import com.jotaveerrefe.product.manager.domain.product.productDTO.ProductData;
+import com.jotaveerrefe.product.manager.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,16 +1,19 @@
-package com.jotaveerrefe.product.manager.domain.product;
+package com.jotaveerrefe.product.manager.controller;
 
+import com.jotaveerrefe.product.manager.domain.product.*;
+import com.jotaveerrefe.product.manager.domain.product.productDTO.ActivateProductData;
+import com.jotaveerrefe.product.manager.domain.product.productDTO.ProductData;
+import com.jotaveerrefe.product.manager.domain.product.productDTO.ProductRefreshData;
+import com.jotaveerrefe.product.manager.domain.product.productDTO.ProductRefreshDetail;
+import com.jotaveerrefe.product.manager.repository.ProductRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/product")

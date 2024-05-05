@@ -1,10 +1,12 @@
-package com.jotaveerrefe.product.manager.domain.product;
+package com.jotaveerrefe.product.manager.domain.product.productDTO;
 
 import jakarta.validation.constraints.NotNull;
+
+import java.math.BigDecimal;
 
 public record ProductRefreshData(
         @NotNull
         Long id,
-        Double price,
+        BigDecimal price,
         Integer quantity){
 }
