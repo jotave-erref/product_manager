@@ -11,6 +11,7 @@ Product Manager será uma API Restful java para gerenciamento de pedidos como ta
 - CRUD de Categorias (em desenvolvimento)
 - CRUD de Pedidos (em desenvolvimento)
 - Controle de acesso (em desenvolvimento)
+- Testes automatizados (em desenvolvimento)
 
 ## :hammer_and_wrench: Tecnologias
 *As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do projeto:*
@@ -22,3 +23,4 @@ Product Manager será uma API Restful java para gerenciamento de pedidos como ta
 5. Hibernate
 6. Flyway
 7. Lombok
+8. Postman
